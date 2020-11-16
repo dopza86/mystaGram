@@ -1,0 +1,19 @@
+{
+  "name": "mystaGram",
+  "version": "1.0.0",
+  "description": "Express + Prisma + React + React Native 를 이용한 인스타그램 클로닝",
+  "main": "index.js",
+  "repository": "https://github.com/dopza86/mystaGram",
+  "author": "dopza86 <dopza86@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "nodemon": "^2.0.6"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js"
+  }
+}
