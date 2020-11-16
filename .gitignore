@@ -105,3 +105,4 @@ dist
 
 #prisma
 generated
+prisma.yml
